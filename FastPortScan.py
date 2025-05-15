@@ -80,6 +80,7 @@ def display_banner():
     print(Fore.CYAN + """
     ============================================
           Welcome to the Fast Port Scanner
+		    by @kra1t
     ============================================
     """)
 
@@ -123,9 +124,10 @@ def main():
         print(f"\n{Fore.YELLOW}Scan stopped by user! Showing results so far...")
 
     if found_ports:
-        print(f"\n{Fore.GREEN}Open ports found: {', '.join(map(str, found_ports))}")
+        print(f"\n{Fore.GREEN}Open ports found: {','.join(map(str, found_ports))}")
     else:
         print(f"{Fore.RED}No open ports found.")
 
 if __name__ == "__main__":
     main()
+#Krait's Work
